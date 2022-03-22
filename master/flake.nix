@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-lapper-master.flake = false;
+  inputs.src-lapper-master.ref   = "refs/heads/master";
   inputs.src-lapper-master.owner = "brentp";
-  inputs.src-lapper-master.ref   = "master";
   inputs.src-lapper-master.repo  = "nim-lapper";
   inputs.src-lapper-master.type  = "github";
   
