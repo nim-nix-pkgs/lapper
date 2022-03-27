@@ -11,6 +11,7 @@
   inputs.src-lapper-master.ref   = "refs/heads/master";
   inputs.src-lapper-master.owner = "brentp";
   inputs.src-lapper-master.repo  = "nim-lapper";
+  inputs.src-lapper-master.dir   = "";
   inputs.src-lapper-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

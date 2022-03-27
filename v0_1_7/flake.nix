@@ -11,6 +11,7 @@
   inputs.src-lapper-v0_1_7.ref   = "refs/tags/v0.1.7";
   inputs.src-lapper-v0_1_7.owner = "brentp";
   inputs.src-lapper-v0_1_7.repo  = "nim-lapper";
+  inputs.src-lapper-v0_1_7.dir   = "";
   inputs.src-lapper-v0_1_7.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
